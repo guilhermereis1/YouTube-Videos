@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  margin: 15px;
+  grid-template-areas:
+    "search-bar search-bar search-bar search-bar"
+    "video-player video-player video-player video-list"
+    "video-player video-player video-player video-list";
+}
+.search-bar {
+  grid-area: search-bar;
+  background-color: #fff;
+}
+.video-player {
+  grid-area: video-player;
+  background-color: #efefef;
+}
+.video-list {
+  grid-area: video-list;
+  background-color: #efefef;
+  padding: 15px;
+}
+.video-titulo {
+  font-weight: 600;
+  font-size: 30px;
+  color: #446688;
+  padding: 10px;
+}
+.video-descricao {
+  padding: 10px;
+  color: #0000CD;
+}
