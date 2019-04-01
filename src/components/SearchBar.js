@@ -8,7 +8,7 @@ class SearchBar extends Component {
   constructor(props){
     super(props);
 
-    this.props.buscaVideo('Udemy')
+    this.props.buscaVideo('Udemy') // Value default
   }
 
   pesquisaTermo = e => {
